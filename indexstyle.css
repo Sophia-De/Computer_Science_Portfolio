@@ -1,0 +1,276 @@
+/*
+    Document   : indexstyle.css
+    Created on : 2015-09-01 08:08 PM
+    Author     : sophiad
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+/* <!--
+This is the Welcome page CSS--> */
+root {
+    display: block;
+}
+#hello {
+    font-family: candara; 
+    text-align: center; 
+    font-size:5em; 
+    background-color:white 
+}
+
+body {
+    background-color:pink;
+    background:url("http://static.tumblr.com/oct6d4x/wG5m4ialf/back4__2_.png");
+}
+
+
+body {
+    font-family: candara;
+}
+
+#text{
+    text-align:left;
+}
+#pic{
+    text-align:center;
+}
+
+#pic2{
+    width:400px;
+    height:400px;
+    
+}
+#pic3{
+    text-align:center;
+}
+
+#nav-bar a{
+    text-decoration: none;
+}
+
+#nav-bar li{
+
+     display: inline-block;
+     margin-right: 20px;
+/*         border: 2px solid black; */
+}
+
+#nav-bar ul{
+/*     border: 2px solid black; */
+/*     transform:rotate(20deg); */
+}
+
+
+#nav-bar span {
+  font: 16px Monaco, MonoSpace;
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  left: 605px;
+  top: 190px;
+  transform-origin: bottom center;
+  
+/*   transform:rotate(20deg);   */
+}
+
+#nav-bar .aboutme:hover{
+    color: white;
+}
+
+
+#nav-bar .class:hover{
+    color: white;
+}
+
+
+#nav-bar .html:hover{
+    color: white;
+}
+
+#nav-bar .hardware:hover{
+    color: white;
+}
+
+.char1 { transform: rotate(265deg); }
+.char2 { transform: rotate(269deg); }
+.char3 { transform: rotate(273deg); }
+.char4 { transform: rotate(277deg); }
+.char5 { transform: rotate(281deg); }
+.char6 { transform: rotate(288deg); }
+.char7 { transform: rotate(292deg); }
+
+/* .char8 { transform: rotate(297deg); } */
+/* .char9 { transform: rotate(52deg); } */
+/* .char9 { transform: rotate(deg); } */
+/* .char10 { transform: rotate(64deg); }
+.char11 { transform: rotate(70deg); }
+.char12 { transform: rotate(76deg); }
+.char13 { transform: rotate(82deg); } */
+
+.char14 { transform: rotate(306deg); }
+.char15 { transform: rotate(310deg); }
+.char16 { transform: rotate(314deg); }
+.char17 { transform: rotate(318deg); }
+.char18 { transform: rotate(325deg); }
+.char19 { transform: rotate(329deg); }
+.char20 { transform: rotate(333deg); }
+.char21 { transform: rotate(337deg); }
+.char22 { transform: rotate(341deg); }
+
+/* .char23 { transform: rotate(142deg); } */
+
+.char41 { transform: rotate(355deg); }
+.char42 { transform: rotate(358deg); }
+.char43 { transform: rotate(361deg); }
+.char44 { transform: rotate(364deg); }
+.char45 { transform: rotate(367deg); }
+.char46 { transform: rotate(370deg); }
+.char47 { transform: rotate(373deg); }
+.char48 { transform: rotate(376deg); }
+
+
+
+
+.char24 { transform: rotate(394deg); }
+.char25 { transform: rotate(398deg); }
+.char26 { transform: rotate(402deg); }
+.char27 { transform: rotate(406deg); }
+.char28 { transform: rotate(410deg); }
+.char29 { transform: rotate(414deg); }
+.char30 { transform: rotate(418deg); }
+.char31 { transform: rotate(422deg); }
+
+.char32 { transform: rotate(429deg); }
+.char33 { transform: rotate(433deg); }
+.char34 { transform: rotate(437deg); }
+.char35 { transform: rotate(441deg); }
+.char36 { transform: rotate(445deg); }
+.char37 { transform: rotate(449deg); }
+.char38 { transform: rotate(454deg); }
+.char39 { transform: rotate(457deg); }
+
+.char40 { transform: rotate(243deg); }
+
+/* .char49 { transform: rotate(deg); } */
+/* .char50 { transform: rotate(940deg); } */
+.char51 { transform: rotate(1deg); }
+.char52 { transform: rotate(106deg); }
+.char53 { transform: rotate(66deg); }
+.char54 { transform: rotate(118deg); }
+.char55 { transform: rotate(124deg); }
+.char56 { transform: rotate(130deg); }
+.char57 { transform: rotate(136deg); }
+
+
+/* <!--
+This is the About Me page CSS--> */
+
+h1 {
+    color:black;
+    font-family: Delicious, serif;
+    text-align:center;
+    font-size: 4em;
+    position: relative;
+    right:20px;
+    left:-200px;
+    bottom:330px;
+}
+
+
+
+#gif{
+    width: 360px;
+    position: relative;
+    top: 80px;
+    left: -20px;
+    
+}
+
+.pp{
+    position: relative;
+    bottom:330px;
+    right: -335px;
+    color:black;
+}
+
+#welcome-page{
+    display:inline;
+    position:relative;
+    
+}
+
+#this-class{
+    display:inline;
+    position:relative;
+}
+
+#html-css{
+    display:inline;
+    position:relative;
+}
+
+#this-class{
+    display:inline;
+    position:relative;
+}
+
+#c-hardware{
+    display:inline;
+    position:relative;
+}
+
+.hrefs{
+    text-decoration:none;
+    padding-right: 5px;
+    border: 2px solid grey
+}
+
+
+.hrefs:hover{
+    color: white;
+    text-decoration:underline;
+}
+
+a:active{
+    color: blue;   
+}
+
+
+/* <!--
+This is the This Class page CSS--> */
+
+#flower-pic{
+    position:absolute;
+    top:50px;
+    left: 50px;
+}
+
+
+.this{
+   font-size:4em; 
+   position:relative;
+   bottom:-80px;
+   left:330px;
+   font-weight:bold;
+   
+}
+
+.hrefs{
+/*     position:relative; */
+}
+
+#city{
+    position:relative;
+    left:410px;
+    width:400px;
+}
+
+#headinghtml{
+    font-weight:bold;
+    text-align:center;
+    font-size:3em;
+    position:relative;
+    bottom:295px;
+}
+
