@@ -9,9 +9,9 @@
 
 /* <!--
 This is the Welcome page CSS--> */
-#bodywelcomepage{
+ #bodywelcomepage {
     overflow:hidden;
-} 
+}
 root {
     display: block;
 }
@@ -250,7 +250,7 @@ This is the About Me page CSS--> */
 }
 h1 {
     color:black;
-    font-family: Delicious, serif;
+    font-family:serif;
     text-align:center;
     font-size: 4em;
     position: relative;
@@ -322,32 +322,30 @@ a:active {
     top:-50px;
     z-index:-100;
 }
-
-#boutaboutme{
+#boutaboutme {
     position:absolute;
     bottom:35px;
     height:650px;
 }
-.suitcase{
+.suitcase {
     width:150px;
     left:380px;
     top:200px;
     position:absolute;
     height:150px;
 }
-.vb{
+.vb {
     left:560px;
     top:200px;
 }
-.horse{
+.horse {
     top:200px;
     left:930px;
 }
-.friends{
+.friends {
     top:200px;
     left:745px;
 }
-
 /* <!--
 This is the This Class page CSS--> */
  #flower-pic {
@@ -367,36 +365,34 @@ This is the This Class page CSS--> */
     position:relative;
     bottom:-70px;
 }
-
-#boutut{
+#boutut {
     width:800px;
     max-height: 280px;
     position:relative;
     z-index:-100;
     left:-50px;
-    bottom:350px; 
+    bottom:350px;
 }
-.tim{
+.tim {
     width:200px;
 }
-.pp2{
+.pp2 {
     width:700px;
-/*     position: relative; */
-/*     bottom:400px; */
-/*     right: -380px; */
+    /*     position: relative; */
+    /*     bottom:400px; */
+    /*     right: -380px; */
     color:black;
     z-index: 8;
     overflow:auto;
-/*     border: 2px solid black; */
+    /*     border: 2px solid black; */
     height:300px;
 }
-
-#bodythisclass{
+#bodythisclass {
     overflow:hidden;
 }
 /* <!--
 This is the HTML&CSS CSS--> */
-.table1{
+ .table1 {
     text-align:center;
     width:80%;
     margin-left: auto;
@@ -404,7 +400,7 @@ This is the HTML&CSS CSS--> */
     position:relative;
     bottom:950px;
 }
-.table2{
+.table2 {
     text-align:center;
     width:80%;
     margin-left: auto;
@@ -412,7 +408,7 @@ This is the HTML&CSS CSS--> */
     position:relative;
     bottom:900px;
 }
-.woahthere{
+.woahthere {
     width:600px;
     vertical-align:top;
 }
@@ -444,8 +440,7 @@ This is the HTML&CSS CSS--> */
 .hrefs {
     z-index:10;
 }
-
-#bouthtml{
+#bouthtml {
     position:absolute;
     bottom:130px;
     height:1950px;
@@ -453,8 +448,7 @@ This is the HTML&CSS CSS--> */
     left:65px;
     top:360px;
 }
-
-#bouthtml2{
+#bouthtml2 {
     bottom:0px;
     width:1100px;
     position:relative;
@@ -462,12 +456,9 @@ This is the HTML&CSS CSS--> */
     left:57px;
     top:360px;
 }
-
-.pp5{
+.pp5 {
     z-index:70;
 }
-
-
 /* .htmlsuperior{
     z-index:100;
     position:absolute;
@@ -476,8 +467,7 @@ This is the HTML&CSS CSS--> */
     width:300px;
     overflow:auto;
 } */
-
-#h20{
+ #h20 {
     z-index:100;
     position:absolute;
     top:200px;
@@ -485,7 +475,6 @@ This is the HTML&CSS CSS--> */
     width:300px;
     overflow:auto;
 }
-
 /* #html1{
      z-index:100;
     position:absolute;
@@ -516,11 +505,9 @@ This is the Computer Hardware CSS--> */
     top:120px;
     left:-100px;
 }
-
-#boutch{
+#boutch {
     position:absolute;
 }
-
 /* .motherboard{
     width:380px;
 }
@@ -533,128 +520,104 @@ This is the Computer Hardware CSS--> */
         filter: FlipH;
         -ms-filter: "FlipH";
 } */
-
-.flip-container
-{
+ .flip-container {
     position:relative;
     -webkit-perspective:1000;
     perspective:1000;
 }
-
-.front-card{
-     width:400px;
+.front-card {
+    width:400px;
 }
-
-
-.flip-cards
-{
+.flip-cards {
     width:200px;
     height:291px;
     position:relative;
-    float:left;    
+    float:left;
     margin-left:5px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-
-
-.flip-cards:hover
-{
-    transform: rotateY( 180deg );
+.flip-cards:hover {
+    transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
 }
-
-
-.flip-cards div
-{
+.flip-cards div {
     width:390px;
     height:300px;
     position:absolute;
-    border-radius:15px;    
+    border-radius:15px;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
-
-.front-card
-{
+.front-card {
     z-index: 2;
     background-image: url('/images/blog/cover.png');
 }
-
-.reverse-card
-{
+.reverse-card {
     -webkit-transform: rotateY(180deg);
-    transform: rotateY( 180deg );
+    transform: rotateY(180deg);
     background-color:rgb(205, 136, 175);
-/*     overflow:auto; */
+    /*     overflow:auto; */
     width:400px;
     padding:10px;
     padding-top:50px;
     padding-left:50px;
 }
-
-#card1
-{
+#card1 {
     background-image: url('/images/blog/ace_of_spades.png');
 }
-
-#card2
-{
+#card2 {
     background-image: url('/images/blog/8_of_hearts.png');
 }
-
-#card3
-{
+#card3 {
     background-image: url('/images/blog/black_joker.png');
 }
-
-#hover{
+#hover {
     text-align:center;
     position:relative;
     left:-15px;
     bottom:245px;
 }
-
-#motherboardflip{
+#motherboardflip {
     bottom:190px;
-/*     border:2px solid black; */
+    /*     border:2px solid black; */
     width: 400px;
     right:-150px;
 }
-#cpuflip{
+#cpuflip {
     bottom:190px;
-/*     border:2px solid black; */
+    /*     border:2px solid black; */
     width:400px;
     left:250px;
 }
-#ramflip{
+#ramflip {
     bottom:90px;
-/*     border:2px solid black; */
+    /*     border:2px solid black; */
     width:400px;
     right:-150px;
 }
-#harddriveflip{
+#harddriveflip {
     bottom:90px;
-/*     border:2px solid black; */
+    /*     border:2px solid black; */
     width:400px;
     left:250px;
     height:291px;
 }
-#communicateflip{
+#communicateflip {
     bottom:0px;
-/*     border:2px solid black; */
+    /*     border:2px solid black; */
     width:400px;
-    right:-150px;   
+    right:-150px;
 }
-#keyflip{
+#keyflip {
     bottom:0px;
-/*     border:2px solid black; */
+    /*     border:2px solid black; */
     width:400px;
-    left:250px; 
+    left:250px;
     height:281px;
 }
-.ppp{
+.ppp {
     width:350px;
 }
