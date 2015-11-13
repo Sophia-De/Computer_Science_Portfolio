@@ -1,0 +1,145 @@
+.text {
+    color: black;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    right: 70px;
+}
+
+.inputs {
+    color: blue;
+    font-size: 60px;
+}
+
+body {
+    background-image: url("http://www.pageresource.com/wallpapers/wallpaper/math-time-backgrounds.jpg");
+    background-size: 1050px;
+}
+
+#display {
+    color: blue;
+}
+
+#dropdown {
+    font-size: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    text-align: left;
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    padding-right: 5px;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+    display: inline block;
+    position: relative;
+}
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.dropdown {
+    visibility: hidden;
+}
+
+#main12:hover + .dropdown {
+    visibility: visible;
+}
+
+.dropdown:hover {
+    visibility: visible;
+}
+
+#main12 {
+    text-decoration: none;
+    padding-right: 5px;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+    display: inline-block;
+    /*position:absolute;*/
+    /*left:46.2%;*/
+    /*top:2.35%;*/
+}
+
+#main {
+    text-decoration: none;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+    display: inline-block;
+    position: absolute;
+    left: 39.53%;
+    top: 6%;
+}
+
+#main12:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#welcome-page {
+    display: inline;
+    position: relative;
+}
+
+#this-class {
+    display: inline;
+    position: relative;
+}
+
+#html-css {
+    display: inline;
+    position: relative;
+}
+
+#this-class {
+    display: inline;
+    position: relative;
+}
+
+#c-hardware {
+    display: inline;
+    position: relative;
+}
+
+.hrefs {
+    text-decoration: none;
+    padding-right: 5px;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+}
+
+.hrefs:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 75px;
+    position: relative;
+    right: -40px;
+}
+
+#body {
+    position: relative;
+    top: 60px;
+    text-align: center;
+}

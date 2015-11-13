@@ -1,0 +1,182 @@
+/*One Direction*/
+
+.text1 {
+    /*border:2px solid black;*/
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.text2 {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 90px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.text3 {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.pics {
+    display: inline-block;
+}
+
+.info {
+    font-size: 22px;
+}
+
+.band {}
+
+
+/*Little Mix*/
+
+.text12 {
+    /*border:2px solid black;*/
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 110px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.text22 {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 90px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.text32 {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    text-align: left;
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    padding-right: 5px;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+    display: inline block;
+    position: relative;
+}
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.dropdown {
+    visibility: hidden;
+}
+
+#main12:hover + .dropdown {
+    visibility: visible;
+}
+
+.dropdown:hover {
+    visibility: visible;
+}
+
+#main12 {
+    text-decoration: none;
+    padding-right: 5px;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+    display: inline-block;
+    /*position:absolute;*/
+    /*left:46.2%;*/
+    /*top:2.35%;*/
+}
+
+#main {
+    text-decoration: none;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+    display: inline-block;
+    position: absolute;
+    left: 39.53%;
+    top: 6%;
+}
+
+#main12:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#welcome-page {
+    display: inline;
+    position: relative;
+}
+
+#this-class {
+    display: inline;
+    position: relative;
+}
+
+#html-css {
+    display: inline;
+    position: relative;
+}
+
+#this-class {
+    display: inline;
+    position: relative;
+}
+
+#c-hardware {
+    display: inline;
+    position: relative;
+}
+
+.hrefs {
+    text-decoration: none;
+    padding-right: 5px;
+    border: 2px solid rgb(118, 104, 198);
+    z-index: 8;
+    background-color: rgb(165, 150, 245);
+}
+
+.hrefs:hover {
+    color: white;
+    text-decoration: underline;
+}
