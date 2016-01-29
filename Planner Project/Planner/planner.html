@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+</head>
+<style>
+  .navbar {
+    text-align: left;
+  }
+  
+  .title {
+    text-align: left;
+    color: rgb(0, 51, 153);
+    font-size:45px;
+    position:relative;
+    top:20px;
+  }
+  
+  #myform {
+    text-align: left;
+  }
+  
+  #plannerNavbar {
+    display: inline;
+    position: relative;
+  }
+  
+  #cas {
+    display: inline;
+    position: relative;
+  }
+  
+  .hrefs {
+    text-decoration: none;
+    padding-right: 5px;
+    border: 2px solid rgb(0, 76, 153);
+    z-index: 8;
+    background-color: rgb(153, 204, 255);
+    color: black;
+  }
+  
+  #diff {
+    text-align: center;
+  }
+  
+  .hrefs:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  #planner {
+    text-align: center;
+  }
+  
+  .movee {
+    text-align: center;
+  }
+  
+  .moveit {
+    text-align:center;
+    top:120px;
+    display:inline;
+  }
+  
+  .sections{
+   display:inline-block; 
+   max-width:20%;
+   border:1.5px solid black;
+   padding-left:5%;
+   padding-right:5%;
+   text-align:center;
+   margin:10px;
+  }
+  
+  .headings{
+  text-decoration:underline;
+  }
+</style>
+
+<body style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hmSddns9L7IdXTn8DloSkSo8QQ-1qSniMr700LLdfoWtZ-pk');">
+  <div class="navbar">
+    <ul>
+
+      <li id="plannerNavbar"><a class="hrefs" href="planner.html">Planner</a></li>
+      <li id="cas"><a class="hrefs" href="contentTracker.html">Content Assessment Tracker</a></li>
+    </ul>
+
+    </ul>
+
+  </div>
+  </ul>
+
+  <header>
+    <h1 class="title movee">Planner</h1>
+  </header>
+  <section>
+    <form id="myform" class="movee">
+      <div id="diff">
+        <div class="position movee">Add an item to your to do list!
+          <br> Click on an item if you want to remove it.</div>
+        <input class="moveit movee" type="text" id="newitem" />
+         <select id="dropdown2" class="moveit movee">
+    <option value="math">Math</option>
+    <option value="science">Science</option>
+    <option value="history">History</option>
+    <option value="english">English</option>
+    <option value="foreignLang">Foreign Language</option>
+  </select>
+  <select id="dropdown" class="moveit movee">
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+          <option value="black">Black</option>
+          <option value="purple">Purple</option>
+          <option value="green">Green</option>
+          <input type="submit" class="moveit movee">
+        </select>
+      </div>
+    </form>
+  </section>
+  <br>
+
+  </a>
+  </div>
+  </form>
+  </section>
+  <br>
+<div class = "sections" id = "mathSection"> <h2 class = "headings" id = "mathHeading"> Math </h2> <p> </p> </div>
+
+<div class="sections" id="scienceSection"> <h2 class = "headings" id="scienceHeading">Science</h2> </div> 
+
+<div class="sections" id="historySection"><h2 class = "headings" id="historyHeading">History</h2></div>
+  
+<div class="sections" id="englishSection"><h2 class = "headings" id="englishHeading">English</h2></div>  
+  
+<div class="sections" id="foreignLanguageSection"><h2 class = "headings" id="foreignLanguageHeading">Foreign Language</h2></div>  
+ 
+ 
+<div id="planner"></div>
+
+  <script src="planner.js"></script>
+</body>
+
+</html>

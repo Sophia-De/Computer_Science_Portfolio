@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+<style>
+    .navbar {
+        text-align: left;
+    }
+    
+    .title {
+        text-align: left;
+        color: rgb(0, 51, 153);
+    }
+    
+    #plannerNavbar {
+        display: inline;
+        position: relative;
+    }
+    
+    #cas {
+        display: inline;
+        position: relative;
+    }
+    
+    .hrefs {
+    text-decoration: none;
+    padding-right: 5px;
+    border: 2px solid rgb(0, 76, 153);
+    z-index: 8;
+    background-color: rgb(153, 204, 255);
+    color: black;
+  }
+    
+    .hrefs:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #planner {
+        text-align: left;
+    }
+    
+    #ca2 {
+        text-align: center;
+    }
+    
+    .btn {
+        position: relative;
+        top: 40px;
+        left: 569px;
+    }
+    
+    #compResponse {
+        text-align: center;
+        position: relative;
+        top: 60px;
+        color: red;
+    }
+    
+    #drop2 {
+        position: relative;
+        top: -16px;
+        left: 630px;
+    }
+    
+    #submitButton {
+        position: relative;
+        top: 40px;
+        left: 663px;
+    }
+    
+    .ca {
+        position: relative;
+        top: 40px;
+        text-align: center;
+    }
+    
+    .dropdownMenu {
+        position: relative;
+        top: 92px;
+        text-align: center;
+    }
+    
+    #howManyCas{
+        position: relative;
+        top:20px;
+    }
+</style>
+
+<body class="body" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hmSddns9L7IdXTn8DloSkSo8QQ-1qSniMr700LLdfoWtZ-pk');">
+    <div class="navbar">
+        <ul>
+
+            <li id="plannerNavbar"><a class="hrefs" href="planner.html">Planner</a></li>
+            <li id="cas"><a class="hrefs" href="">Content Assessment Tracker</a></li>
+        </ul>
+
+        </ul>
+
+    </div>
+    </ul>
+
+    </div>
+
+    <header>
+        <h1 class="title ca" id="ca2">Content Assessment Tracker</h1>
+    </header>
+
+    <div id="drop2">
+        <select id="dropdown" class="moveit dropdownMenu">
+            <option value="fresh">Freshman</option>
+            <option value="soph">Sophomore</option>
+            <option value="jr">Junior</option>
+            <option value="snr">Senior</option>
+        </select>
+    </div>
+    <div class="ca text1" id="howManyCas">
+        Enter how many power focus content assessments you have already passed this year and then choose your grade.
+    </div>
+    <footer>
+    </footer>
+    <div id="planner"></div>
+
+    <input class="inputs btn" type="text" name="input2" style="width:50px;" id="inputBox">
+    <input type="button" value="Calculate" name="input1" id="submitButton" class="btn" />
+
+
+    <div id="compResponse">
+    </div>
+
+
+    <script src="contentTracker.js"></script>
+</body>
+
+</html>
