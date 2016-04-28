@@ -1,21 +1,13 @@
 .text {
     color: black;
-    font-size: 70px;
-    font-family: sans-serif;
+    font-size: 30px;
     text-align: center;
-    position: relative;
-    top: 280px;
-    right: 70px;
 }
 
 .inputs {
     color: blue;
-    font-size: 60px;
-}
-
-body {
-    background-image: url("http://www.pageresource.com/wallpapers/wallpaper/math-time-backgrounds.jpg");
-    background-size: 1050px;
+    font-size: 25px;
+    text-align: center;
 }
 
 #display {
@@ -85,8 +77,8 @@ body {
     background-color: rgb(165, 150, 245);
     display: inline-block;
     position: absolute;
-    left: 39.53%;
-    top: 6%;
+    left: 53.5%;
+    top: 5.47%;
 }
 
 #main12:hover {
@@ -132,14 +124,18 @@ body {
     text-decoration: underline;
 }
 
-h1 {
-    font-size: 75px;
-    position: relative;
-    right: -40px;
+#h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
 }
 
 #body {
     position: relative;
     top: 60px;
     text-align: center;
+}
+
+body {
+    background-image: url("background.png");
 }

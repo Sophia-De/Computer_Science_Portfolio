@@ -33,6 +33,7 @@
 
 .pics {
     display: inline-block;
+    width: 140px;
 }
 
 .info {
@@ -134,8 +135,8 @@
     background-color: rgb(165, 150, 245);
     display: inline-block;
     position: absolute;
-    left: 39.53%;
-    top: 6%;
+    left: 53.5%;
+    top: 5.47%;
 }
 
 #main12:hover {
@@ -179,4 +180,12 @@
 .hrefs:hover {
     color: white;
     text-decoration: underline;
+}
+
+h2 {
+    text-decoration: none
+}
+
+body {
+    background-image: url("background.png");
 }

@@ -6,11 +6,11 @@ var todo = document.getElementById('planner'),
   newItemInput = document.getElementById('newitem'),
   dropdownColorOptions = document.getElementById('dropdown'),
   dropdownSubjectOptions = document.getElementById('dropdown2'),
-  mathTasks = document.getElementById('mathSection'),
-  scienceTasks = document.getElementById('scienceSection'),
-  historyTasks = document.getElementById('historySection'),
-  englishTasks = document.getElementById('englishSection'),
-  foreignLangTasks = document.getElementById('foreignLanguageSection');
+    mathTasks = document.getElementById('mathSection'),
+    scienceTasks = document.getElementById('scienceSection'),
+    historyTasks = document.getElementById('historySection'),
+    englishTasks = document.getElementById('englishSection'),
+    foreignLangTasks = document.getElementById('foreignLanguageSection');
 
 
 //tells program what to do when each subject value is selected

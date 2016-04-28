@@ -22,6 +22,7 @@ root {
 .moveit {
     bottom: 580px;
     position: relative;
+    right: 20px;
 }
 
 .blueish {
@@ -38,12 +39,7 @@ root {
 }
 
 body {
-    background-color: pink;
-    /*     background:url("http://static.tumblr.com/oct6d4x/wG5m4ialf/back4__2_.png"); */
-    background: url("http://hd4wallpapers.net/wp-content/uploads/2014/12/Ocean-Background-Tumblr.jpg");
-}
-
-body {
+    background-image: url("background.png");
     font-family: candara;
 }
 
@@ -327,7 +323,7 @@ body {
 This is the About Me page CSS--> */
 
 #body2 {
-    background: url("http://hd4wallpapers.net/wp-content/uploads/2014/12/Ocean-Background-Tumblr.jpg");
+    background: url("background.png");
 }
 
 h1 {
@@ -528,7 +524,7 @@ This is the HTML&CSS CSS--> */
 
 #city {
     position: relative;
-    right: -470px;
+    right: -430px;
     width: 400px;
 }
 
@@ -736,32 +732,32 @@ This is the Computer Hardware CSS--> */
 }
 
 #ramflip {
-    bottom: 90px;
+    top: 200px;
     /*     border:2px solid black; */
     width: 400px;
-    right: -150px;
+    right: 150px;
 }
 
 #harddriveflip {
     bottom: 90px;
     /*     border:2px solid black; */
     width: 400px;
-    left: 250px;
+    left: 150px;
     height: 291px;
 }
 
 #communicateflip {
-    bottom: 0px;
+    bottom: -300px;
     /*     border:2px solid black; */
     width: 400px;
-    right: -150px;
+    right: 255px;
 }
 
 #keyflip {
-    bottom: 0px;
+    bottom: -300px;
     /*     border:2px solid black; */
     width: 400px;
-    left: 250px;
+    left: -150px;
     height: 281px;
 }
 
@@ -828,12 +824,11 @@ This is the Computer Hardware CSS--> */
     background-color: rgb(165, 150, 245);
     display: inline-block;
     position: absolute;
-    left: 540px;
-    top: 6%;
+    left: 53.5%;
+    top: 5.47%;
 }
 
 #main12:hover {
     color: white;
     text-decoration: underline;
 }
-

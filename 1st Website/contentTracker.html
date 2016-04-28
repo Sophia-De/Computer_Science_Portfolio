@@ -11,7 +11,6 @@
     
     .title {
         text-align: left;
-        color: rgb(0, 51, 153);
     }
     
     #plannerNavbar {
@@ -25,13 +24,13 @@
     }
     
     .hrefs {
-    text-decoration: none;
-    padding-right: 5px;
-    border: 2px solid rgb(0, 76, 153);
-    z-index: 8;
-    background-color: rgb(153, 204, 255);
-    color: black;
-  }
+        text-decoration: none;
+        padding-right: 5px;
+        border: 2px solid rgb(0, 76, 153);
+        z-index: 8;
+        background-color: rgb(153, 204, 255);
+        color: black;
+    }
     
     .hrefs:hover {
         color: white;
@@ -83,37 +82,149 @@
         text-align: center;
     }
     
-    #howManyCas{
+    #howManyCas {
         position: relative;
-        top:20px;
+        top: 20px;
+    }
+    /*Below are the things I changed*/
+    
+    .nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
     
+    .nav li {
+        text-align: left;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        display: block;
+        padding-left: 15px;
+        padding-right: 5px;
+        border: 2px solid rgb(118, 104, 198);
+        z-index: 8;
+        background-color: rgb(165, 150, 245);
+        display: inline block;
+        position: relative;
+    }
+    
+    .nav a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .dropdown {
+        visibility: hidden;
+    }
+    
+    #main12:hover + .dropdown {
+        visibility: visible;
+    }
+    
+    .dropdown:hover {
+        visibility: visible;
+    }
+    
+    #main12 {
+        text-decoration: none;
+        padding-right: 5px;
+        border: 2px solid rgb(118, 104, 198);
+        z-index: 8;
+        background-color: rgb(165, 150, 245);
+        display: inline-block;
+        /*position:absolute;*/
+        /*left:46.2%;*/
+        /*top:2.35%;*/
+    }
+    
+    #main {
+        text-decoration: none;
+        border: 2px solid rgb(118, 104, 198);
+        z-index: 8;
+        background-color: rgb(165, 150, 245);
+        display: inline-block;
+        position: absolute;
+        left: 53.5%;
+        top: 5.47%;
+    }
+    
+    #main12:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    #welcome-page {
+        display: inline;
+        position: relative;
+    }
+    
+    #this-class {
+        display: inline;
+        position: relative;
+    }
+    
+    #html-css {
+        display: inline;
+        position: relative;
+    }
+    
+    #this-class {
+        display: inline;
+        position: relative;
+    }
+    
+    #c-hardware {
+        display: inline;
+        position: relative;
+    }
+    
+    .hrefs {
+        text-decoration: none;
+        padding-right: 5px;
+        border: 2px solid rgb(118, 104, 198);
+        z-index: 8;
+        background-color: rgb(165, 150, 245);
+    }
+    
+    .hrefs:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    body {
+        background-image: url("background.png");
+    }
 </style>
 
-<body class="body" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hmSddns9L7IdXTn8DloSkSo8QQ-1qSniMr700LLdfoWtZ-pk');">
+<body class="body">
     <div class="navbar">
         <div>
-        <ul>
+            <ul>
 
-            <li id="welcome-page"><a class="hrefs" href="index.html">Welcome Page</a></li>
-            <li id="this-class"><a class="hrefs" href="aboutme.html">About Me</a></li>
-            <li id="c-hardware"><a class="hrefs" href="this-class.html"> This Class</a></li>
-            <li id="html-css"><a class="hrefs" href="html-css.html">HTML&CSS</a></li>
-            <li id="c-hardware"><a class="hrefs" href="Computer-Hardware.html"> Computer Hardware</a></li>
+                <li id="welcome-page"><a class="hrefs" href="index.html">Welcome Page</a></li>
+                <li id="this-class"><a class="hrefs" href="aboutme.html">About Me</a></li>
+                <li id="c-hardware"><a class="hrefs" href="this-class.html"> This Class</a></li>
+                <li id="html-css"><a class="hrefs" href="html-css.html">HTML&CSS</a></li>
+                <li id="c-hardware"><a class="hrefs" href="Computer-Hardware.html"> Computer Hardware</a></li>
+                <li id="c-hardware"><a class="hrefs" href="vindWebsite.html"> Vindinium</a></li>
+                <li id="c-hardware"><a class="hrefs" href="game.html"> Game</a></li>
 
-            <li id="main12" style="display:inline-block"><a class="hrefs">Remixes</a></li>
-            <ul class="dropdown" id="main">
-                <li><a href="info.html">Popular Music Artists</a></li>
-                <li><a href="calc.html">Calculator</a></li>
-                <li><a href="todolist.html">To Do List</a></li>
-                <li><a href = "planner.html"> Planner </a></li>
-                <li><a href = "contentTracker.html"> Content Tracker</a></li>
-                
+                <li id="main12" style="display:inline-block"><a class="hrefs">Remixes</a></li>
+                <ul class="dropdown" id="main">
+                    <li><a href="info.html">Popular Music Artists</a></li>
+                    <li><a href="calc.html">Calculator</a></li>
+                    <li><a href="todolist.html">To Do List</a></li>
+                    <li><a href="planner.html"> Planner </a></li>
+                    <li><a href="contentTracker.html"> Content Tracker</a></li>
+
+                </ul>
+
             </ul>
 
-        </ul>
-
-    </div>
+        </div>
 
     </div>
     </ul>

@@ -1,5 +1,5 @@
   /* connects the HTML file to this JavaScript file 
-  and defines the variables that are taken from the HTML file*/
+    and defines the variables that are taken from the HTML file*/
 
   var gradeChoicesDropdown = document.getElementById('dropdown'),
     caInputBox = document.getElementById('inputBox'),
@@ -30,4 +30,3 @@
     }
     evt.preventDefault();
   }, false);
-  

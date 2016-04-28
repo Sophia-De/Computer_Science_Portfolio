@@ -1,13 +1,13 @@
 // connects the HTML file to this JavaScript file
 
 var todo = document.getElementById('todolist'),
-    form = document.getElementById('myform'),
-    field = document.getElementById('newitem'),
-    dropdown = document.getElementById('dropdown');
+  form = document.getElementById('myform'),
+  field = document.getElementById('newitem'),
+  dropdown = document.getElementById('dropdown');
 
 form.addEventListener('submit', function(evt) {
 
-// tells program what to do when each color value is selected
+  // tells program what to do when each color value is selected
 
   var text = field.value;
   if (dropdown.value == "blue") {
@@ -30,8 +30,8 @@ form.addEventListener('submit', function(evt) {
 
 todo.addEventListener('click', function(evt) {
   var tar = evt.target;
-  
-// tells that if text is clicked it should have a strikethrough and dissappear next click
+
+  // tells that if text is clicked it should have a strikethrough and dissappear next click
 
   if (tar.style.textDecoration === "line-through") {
     tar.parentNode.removeChild(tar);

@@ -1,6 +1,6 @@
 .title {
-    font-family: sans-serif;
-    font-size: 60px;
+    /*font-family: sans-serif;*/
+    font-size: 50px;
     text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
     text-align: center;
     position: relative;
     top: 8px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #diff {
@@ -166,11 +166,15 @@ a:active {
     background-color: rgb(165, 150, 245);
     display: inline-block;
     position: absolute;
-    left: 39.53%;
-    top: 6%;
+    left: 53.5%;
+    top: 5.47%;
 }
 
 #main12:hover {
     color: white;
     text-decoration: underline;
+}
+
+body {
+    background-image: url("background.png");
 }
